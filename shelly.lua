@@ -1,6 +1,7 @@
 -- Domoticz HTTP/HTTPS Poller command script
 -- Autor: www.mitko.com
 -- Version: 0.1 / 20170928
+-- Source: https://github.com/mitkodotcom/shelly-domoticz-poller
 -- state = stop means roller is not moving right now, it does not show the roller's status (closed or open)
 -- last_direction shows in which direction the roller is or was moving, so this is the eventual state (closed or open)
 --	currently the script does not check if the roller is still moving or not
