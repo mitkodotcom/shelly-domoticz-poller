@@ -12,7 +12,7 @@
 local switch_name = {}
 local power_index = {}
 
--- reasonable defaults ('' or 0 = do not update this index)
+-- reasonable defaults ('' or 0 = do not update this index). Don't change'em, use the devices section below.
 switch_name[0] = ''
 switch_name[1] = ''
 switch_name[2] = ''
@@ -51,10 +51,10 @@ if (device_id == "192.168.1.54") then
 	power_index[0] = 125
 	switch_name[1] = ''
 	power_index[1] = 0
-	switch_name[1] = ''
-	power_index[1] = 0
-	switch_name[1] = ''
-	power_index[1] = 0
+	switch_name[2] = ''
+	power_index[2] = 0
+	switch_name[3] = ''
+	power_index[3] = 0
 end
 
 -- do not edit below this line
