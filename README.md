@@ -32,3 +32,6 @@ If the switch is in Roller mode:
 Repeat if you have more than one relay / roller to control (note that Shelly2 has two relays if in switch mode but only one roller). Do not forget to replace the "0" after relay/ and roller/ with 1,2,3, etc.
 
 Disclaimer: This is my first Lua script ever and I have only 24 hours of experience with this language. I'm not responsible if this piece of software puts your house in fire.
+
+What is Domoticz: https://www.domoticz.com/  
+What is Shelly: https://shelly.cloud/
