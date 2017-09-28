@@ -1,6 +1,6 @@
 Domoticz HTTP/HTTPS Poller command script for Shelly devices
 
-Save this script as domoticz/scripts/lua_parsers/shelly.lua
+Download https://raw.githubusercontent.com/mitkodotcom/shelly-domoticz-poller/master/shelly.lua and save it to domoticz/scripts/lua_parsers/
 
 Add a HTTP/HTTPS poller in Hardware. Give it a name.
 URL: http://192.168.1.123/status (where 192.168.1.123 is IP address of your Shelly)
