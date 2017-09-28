@@ -19,17 +19,21 @@ If the switch is in Relay mode:
    Switch Type: On/Off  
    On Action: http://192.168.1.123/relay/0?turn=on  
    Off Action: http://192.168.1.123/relay/0?turn=off  
+   Set num_rollers = 0 in shelly.lua  
 
 If the switch is in Roller mode:  
   
    Switch Type: Blinds  
    On Action: http://192.168.1.123/roller/0?go=close&duration=40  
    Off Action: http://192.168.1.123/roller/0?go=open&duration=40  
+   Set num_rollers = 1 (or whatever number of rollers you have) in shelly.lua  
      
    The duratuion is in seconds - use whatever is suitable for your roller.  
    Note that the Blinds reaction is inverted: "close" for "On" and "open" for Off  
    
 Repeat if you have more than one relay / roller to control (note that Shelly2 has two relays if in switch mode but only one roller). Do not forget to replace the "0" after relay/ and roller/ with 1,2,3, etc.
+
+Update the corresponding values of num_meters and num_outputs in shelly.lua
 
 Disclaimer: This is my first Lua script ever and I have only 24 hours of experience with this language. I'm not responsible if this piece of software puts your house in fire.
 
