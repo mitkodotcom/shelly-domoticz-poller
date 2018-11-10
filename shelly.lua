@@ -52,8 +52,8 @@ if (device_id == "192.168.3.120") then
 	num_outputs = 4
 	num_meters = 4
 	num_rollers = 0
-	switch_name[0] = 'Battery 1' -- Tuk rename raboti, za razlika ot power_name
-	power_name[0] = 'Battery POW1' -- BUG: ako w domoticz se preimenuva, spra da raboti. Triabwa da se iztrie i syzdade nanovo
+	switch_name[0] = 'Battery 1' -- Switches may be renamed in domoticz
+	power_name[0] = 'Battery POW1' -- BUG: do NOT rename in domoticz. If you have to change the name, remove it and add it again
 	-- power_index[0] = 125
 	switch_name[1] = ''
 	power_name[1] = ''
